@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.4511b470.chunk.css",
+    "main.js": "/dashboard/static/js/main.19fe5fd4.chunk.js",
+    "main.js.map": "/dashboard/static/js/main.19fe5fd4.chunk.js.map",
+    "runtime-main.js": "/dashboard/static/js/runtime-main.5574112e.js",
+    "runtime-main.js.map": "/dashboard/static/js/runtime-main.5574112e.js.map",
+    "static/js/2.062f60ec.chunk.js": "/dashboard/static/js/2.062f60ec.chunk.js",
+    "static/js/2.062f60ec.chunk.js.map": "/dashboard/static/js/2.062f60ec.chunk.js.map",
+    "static/js/3.e6593a96.chunk.js": "/dashboard/static/js/3.e6593a96.chunk.js",
+    "static/js/3.e6593a96.chunk.js.map": "/dashboard/static/js/3.e6593a96.chunk.js.map",
+    "index.html": "/dashboard/index.html",
+    "static/css/main.4511b470.chunk.css.map": "/dashboard/static/css/main.4511b470.chunk.css.map",
+    "static/js/2.062f60ec.chunk.js.LICENSE.txt": "/dashboard/static/js/2.062f60ec.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/dashboard/static/media/12-Late-Night.1322dd89.png",
+    "static/media/roboto.css": "/dashboard/static/media/Roboto-Thin.e7f7c823.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5574112e.js",
+    "static/js/2.062f60ec.chunk.js",
+    "static/css/main.4511b470.chunk.css",
+    "static/js/main.19fe5fd4.chunk.js"
+  ]
+}
