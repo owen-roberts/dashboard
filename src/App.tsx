@@ -1,10 +1,15 @@
 import React from 'react';
 import Background from './components/background';
+import Clock from './components/clock';
 import './App.css';
+import './fonts/roboto.css';
 
 function App() {
   return (
-    <Background/>
+    <div>
+      <Background/>
+      <Clock/>
+    </div>
   );
 }
 

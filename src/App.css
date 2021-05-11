@@ -1,20 +1,74 @@
 
-.background {
-  /* Set rules to fill background */
-  min-height: 100%;
+body {
+  color: #aaa;
+  font-family: "Roboto Condensed", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
 
-  /* Set up proportionate scaling */
+.clock  {
+  margin: 50px 30px 0px 30px;
+}
+
+.dimmed {
+  color: #666;
+}
+
+.normal {
+  color: #999;
+}
+
+.bright {
+  color: #fff;
+}
+
+.xsmall {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.small {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.medium {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.large {
+  font-size: 65px;
+  line-height: 65px;
+}
+
+.xlarge {
+  font-size: 75px;
+  line-height: 75px;
+  letter-spacing: -3px;
+}
+
+.text-fade {
+  color: #666;
+}
+
+.align-top {
+  vertical-align: top;
+}
+
+.background {
+  background-position: center;
+  background-size:cover;
+	background-repeat:no-repeat;
+
+  min-height: 100%;
   width: 100%;
   height: auto;
 
-  /* Set up positioning */
   position: fixed;
   top: 0;
   left: 0;
 
-  background-position: center;
-  background-size:cover;
-	background-repeat:no-repeat;
+  z-index: -1;
 }
 
 
