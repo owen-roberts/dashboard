@@ -43,7 +43,6 @@ export class background extends Component<IProps, IState> {
 
     componentDidMount = () => setInterval(() => {
         this.setState({ image: this.getImageForHour(new Date().getHours()) })
-        console.log("Updated background image");
     }, intervalSeconds * 1000);
 
     render() {
