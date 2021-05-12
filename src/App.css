@@ -3,10 +3,7 @@ body {
   color: #aaa;
   font-family: "Roboto Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
-}
-
-.clock  {
-  margin: 50px 30px 0px 30px;
+  padding: 50px 30px 0px 30px;
 }
 
 .dimmed {

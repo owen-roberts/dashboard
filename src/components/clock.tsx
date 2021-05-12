@@ -21,7 +21,7 @@ export default class Clock extends Component<IProps, IState> {
 
     render = () => {
         return (
-           <div className='clock'>
+           <div>
                 <Moment date={this.state.datetime} format='dddd, Do MMMM yyyy' className='medium bright'/>
                 <div>
                     <Moment className='large bright' date={this.state.datetime} format='HH:mm'/>
