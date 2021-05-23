@@ -15,7 +15,6 @@ const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 export default class forecastWeather extends Component<IProps, IState> {
     constructor(props: IProps) {
         super(props);
-        console.log(props.days);
         this.state = {
             showForecastTemps: false
         }
@@ -29,7 +28,7 @@ export default class forecastWeather extends Component<IProps, IState> {
             {
                 this.props.days?.map((day, index) => 
 
-                    <Day key={index} name={dayNames[day.date.getDay()]} weather={day.weather} temp={day.temp} showTemp={this.state.showForecastTemps} />
+                    <Day key={index} name={dayNames[day.date.getDay()]} icon={day.icon} temp={day.temp} showTemp={this.state.showForecastTemps} />
 
                 )
             }

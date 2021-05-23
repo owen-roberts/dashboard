@@ -50,7 +50,7 @@ export default class Weather extends Component<IProps, IState>{
             .map((day: any) => new DayData(
                 new Date(day.dt * 1000),
                 this.roundToOnePlace(day.temp.day),
-                day.weather[0].main
+                day.weather[0].icon
             ));
     }
 

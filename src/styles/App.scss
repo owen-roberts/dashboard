@@ -7,7 +7,7 @@ body {
 }
 
 .border-bottom {
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #fff;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -29,11 +29,22 @@ body {
   display: inline-grid;
 }
 
+.icon{
+  max-height: 50px;
+  max-width: 50px;
+  margin: auto;
+}
+
+.greyscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 .shadow{
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.temp {
+.align-center {
   align-self: center;
 }
 

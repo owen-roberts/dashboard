@@ -1,10 +1,10 @@
 export default class Day {
-    constructor(date: Date, temp: Number, weather: String) {
+    constructor(date: Date, temp: Number, icon: String) {
         this.date = date;
         this.temp = temp;
-        this.weather = weather;
+        this.icon = icon;
     }
     date: Date
     temp: Number
-    weather: String
+    icon: String
 }
