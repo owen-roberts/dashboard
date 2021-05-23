@@ -8,8 +8,8 @@ body {
 
 .border-bottom {
   border-bottom: 1px solid #aaa;
+  padding-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 10px;
 }
 
 .container {
@@ -19,6 +19,7 @@ body {
 .forecast {
   text-align: center;
   color: #fff;
+  border-radius: 4px;
 }
 
 .day {
@@ -28,10 +29,8 @@ body {
   display: inline-grid;
 }
 
-.day:hover{
-    box-shadow: 
-        inset 0px 11px 8px -10px #aaa,
-        inset 0px -11px 8px -10px #aaa; 
+.shadow{
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .temp {
