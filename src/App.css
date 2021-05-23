@@ -12,8 +12,34 @@ body {
   margin-bottom: 10px;
 }
 
-.fit-content {
-  width: max-content;
+.container {
+  width: 300px;
+}
+
+.forecast {
+  text-align: center;
+  color: #fff;
+}
+
+.day {
+  padding-top: 15px;
+  height: 75px;
+  width: 60px;
+  display: inline-grid;
+}
+
+.day:hover{
+    box-shadow: 
+        inset 0px 11px 8px -10px #aaa,
+        inset 0px -11px 8px -10px #aaa; 
+}
+
+.temp {
+  align-self: center;
+}
+
+.forecast .title {
+  align-self: flex-end;
 }
 
 .dimmed {
