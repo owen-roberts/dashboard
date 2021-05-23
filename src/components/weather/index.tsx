@@ -1,13 +1,14 @@
 import { Component } from "react";
 import CurrentWeather from './current';
 import Forecast from './forecast';
+import DayData from './dayData';
 
 interface IProps { }
 interface IState {
     loading: Boolean,
     currentTemp?: Number,
     feelsLike?: Number
-    showForecastTemps: Boolean
+    forecast?: Array<DayData>
 }
 
 const {
@@ -28,7 +29,6 @@ export default class Weather extends Component<IProps, IState>{
         super(props);
         this.state = {
             loading: true,
-            showForecastTemps: false
         }
     }
 
@@ -36,11 +36,25 @@ export default class Weather extends Component<IProps, IState>{
         await fetch(requestUrl)
             .then(response => response.json())
             .then(json => this.setState({
-                currentTemp: Math.round(json.current.temp * 10) / 10,
-                feelsLike: Math.round(json.current.feels_like * 10) / 10,
+                currentTemp: this.roundToOnePlace(json.current.temp),
+                feelsLike: this.roundToOnePlace(json.current.feels_like),
+                forecast: this.parseForecast(json),
                 loading: false
             }));
     }
+
+    parseForecast = (json: any) => {
+        const numDaysToForecast = 5;
+        return json.daily
+            .slice(1, numDaysToForecast + 1)
+            .map((day: any) => new DayData(
+                new Date(day.dt * 1000),
+                this.roundToOnePlace(day.temp.day),
+                day.weather[0].main
+            ));
+    }
+
+    roundToOnePlace = (value: number) => Math.round(value * 10) / 10;
 
     render = () => {
         if (this.state.loading) {
@@ -50,8 +64,8 @@ export default class Weather extends Component<IProps, IState>{
         } else {
             return (
                 <div>
-                    <CurrentWeather currentTemp={this.state.currentTemp} feelsLikeTemp={this.state.feelsLike}/>
-                    <Forecast />
+                    <CurrentWeather currentTemp={this.state.currentTemp} feelsLikeTemp={this.state.feelsLike} />
+                    <Forecast days={this.state.forecast} />
                 </div>
             );
         }
