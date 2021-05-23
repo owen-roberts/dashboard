@@ -1,8 +1,6 @@
-import React from 'react';
-import Background from './components/background';
-import Clock from './components/clock';
-import Weather from './components/weather';
-import './App.css';
+import { Background, Clock, Weather } from './components/home/index';
+
+import './styles/App.scss';
 import './fonts/roboto.css';
 
 function App() {

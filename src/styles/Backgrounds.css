@@ -1,0 +1,100 @@
+@media(orientation: landscape){
+    .late-night {
+      background-image: url("../img/landscape/12-Late-Night.png");
+    }
+    
+    .mid-night {
+      background-image: url("../img/landscape/11-Mid-Night.png");
+    }
+    
+    .early-night {
+      background-image: url("../img/landscape/10-Early-Night.png");
+    }
+    
+    .late-evening {
+      background-image: url("../img/landscape/09-Late-Evening.png");
+    }
+    
+    .mid-evening {
+      background-image: url("../img/landscape/08-Mid-Evening.png");
+    }
+    
+    .early-evening {
+      background-image: url("../img/landscape/07-Early-Evening.png");
+    }
+    
+    .late-afternoon {
+      background-image: url("../img/landscape/06-Late-Afternoon.png");
+    }
+    
+    .mid-afternoon {
+      background-image: url("../img/landscape/05-Mid-Afternoon.png");
+    }
+    
+    .early-afternoon {
+      background-image: url("../img/landscape/04-Early-Afternoon.png");
+    }
+    
+    .late-morning {
+      background-image: url("../img/landscape/03-Late-Morning.png");
+    }
+    
+    .mid-morning {
+      background-image: url("../img/landscape/02-Mid-Morning.png");
+    }
+    
+    .early-morning {
+      background-image: url("../img/landscape/01-Early-Morning.png");
+    }
+  }
+  
+  @media(orientation: portrait) { 
+    .late-night {
+      background-image: url("../img/mobile/12-Late-Night.png");
+    }
+    
+    .mid-night {
+      background-image: url("../img/mobile/11-Mid-Night.png");
+    }
+    
+    .early-night {
+      background-image: url("../img/mobile/10-Early-Night.png");
+    }
+    
+    .late-evening {
+      background-image: url("../img/mobile/09-Late-Evening.png");
+    }
+    
+    .mid-evening {
+      background-image: url("../img/mobile/08-Mid-Evening.png");
+    }
+    
+    .early-evening {
+      background-image: url("../img/mobile/07-Early-Evening.png");
+    }
+    
+    .late-afternoon {
+      background-image: url("../img/mobile/06-Late-Afternoon.png");
+    }
+    
+    .mid-afternoon {
+      background-image: url("../img/mobile/05-Mid-Afternoon.png");
+    }
+    
+    .early-afternoon {
+      background-image: url("../img/mobile/04-Early-Afternoon.png");
+    }
+    
+    .late-morning {
+      background-image: url("../img/mobile/03-Late-Morning.png");
+    }
+    
+    .mid-morning {
+      background-image: url("../img/mobile/02-Mid-Morning.png");
+    }
+    
+    .early-morning {
+      background-image: url("../img/mobile/01-Early-Morning.png");
+    }
+  }
+  

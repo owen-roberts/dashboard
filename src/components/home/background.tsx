@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import '../../styles/Backgrounds.css';
+
 interface IProps { }
 interface IState {
     image: string

@@ -1,0 +1,107 @@
+
+body {
+  color: #aaa;
+  font-family: "Roboto Condensed", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 50px 20px 0px 20px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 300px;
+}
+
+.forecast {
+  text-align: center;
+  color: #fff;
+}
+
+.day {
+  padding-top: 15px;
+  height: 75px;
+  width: 60px;
+  display: inline-grid;
+}
+
+.day:hover{
+    box-shadow: 
+        inset 0px 11px 8px -10px #aaa,
+        inset 0px -11px 8px -10px #aaa; 
+}
+
+.temp {
+  align-self: center;
+}
+
+.forecast .title {
+  align-self: flex-end;
+}
+
+.dimmed {
+  color: #666;
+}
+
+.normal {
+  color: #999;
+}
+
+.bright {
+  color: #fff;
+}
+
+.xsmall {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.small {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.medium {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.large {
+  font-size: 65px;
+  line-height: 65px;
+}
+
+.xlarge {
+  font-size: 75px;
+  line-height: 75px;
+  letter-spacing: -3px;
+}
+
+.text-fade {
+  color: #666;
+}
+
+.align-top {
+  vertical-align: top;
+}
+
+.background {
+  background-position: center;
+  background-size:cover;
+	background-repeat:no-repeat;
+
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+}
+
+
