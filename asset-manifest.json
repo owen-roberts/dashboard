@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/dashboard/static/css/main.bc49a8cc.chunk.css",
-    "main.js": "/dashboard/static/js/main.98c08e47.chunk.js",
-    "main.js.map": "/dashboard/static/js/main.98c08e47.chunk.js.map",
+    "main.css": "/dashboard/static/css/main.baa902c3.chunk.css",
+    "main.js": "/dashboard/static/js/main.5c877463.chunk.js",
+    "main.js.map": "/dashboard/static/js/main.5c877463.chunk.js.map",
     "runtime-main.js": "/dashboard/static/js/runtime-main.05452f17.js",
     "runtime-main.js.map": "/dashboard/static/js/runtime-main.05452f17.js.map",
     "static/js/2.415e4a7b.chunk.js": "/dashboard/static/js/2.415e4a7b.chunk.js",
     "static/js/2.415e4a7b.chunk.js.map": "/dashboard/static/js/2.415e4a7b.chunk.js.map",
     "index.html": "/dashboard/index.html",
-    "static/css/main.bc49a8cc.chunk.css.map": "/dashboard/static/css/main.bc49a8cc.chunk.css.map",
+    "static/css/main.baa902c3.chunk.css.map": "/dashboard/static/css/main.baa902c3.chunk.css.map",
     "static/js/2.415e4a7b.chunk.js.LICENSE.txt": "/dashboard/static/js/2.415e4a7b.chunk.js.LICENSE.txt",
     "static/media/Backgrounds.css": "/dashboard/static/media/12-Late-Night.1322dd89.png",
     "static/media/roboto.css": "/dashboard/static/media/Roboto-Thin.e7f7c823.woff"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.05452f17.js",
     "static/js/2.415e4a7b.chunk.js",
-    "static/css/main.bc49a8cc.chunk.css",
-    "static/js/main.98c08e47.chunk.js"
+    "static/css/main.baa902c3.chunk.css",
+    "static/js/main.5c877463.chunk.js"
   ]
 }
