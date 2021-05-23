@@ -12,7 +12,7 @@ export default function forecastDay(props: IProps) {
     return (
         <div className="day">
             { props.showTemp === true &&
-                <span className='temp' style={{ display: props.showTemp ? 'block' : 'none' }}>
+                <span className='temp align-center bold' style={{ display: props.showTemp ? 'block' : 'none' }}>
                     {props.temp}
                 </span>
             }

@@ -24,7 +24,7 @@ export default class forecastWeather extends Component<IProps, IState> {
     hideTemps = () => this.setState({ showForecastTemps: false });
 
     render = () => (
-        <div className={`container forecast ${this.state.showForecastTemps ? 'shadow' : ''}`} onMouseEnter={this.showTemps} onMouseLeave={this.hideTemps}>
+        <div className={`container forecast ${this.state.showForecastTemps ? 'shadow' : ''}`} onPointerEnter={this.showTemps} onPointerLeave={this.hideTemps}>
             {
                 this.props.days?.map((day, index) => 
 
