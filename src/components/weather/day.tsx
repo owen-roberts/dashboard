@@ -8,7 +8,6 @@ interface IProps {
 }
 
 export default function forecastDay(props: IProps) {
-    console.log(props.showTemp);
     return (
         <div className="day">
             { props.showTemp === true &&
