@@ -14,7 +14,7 @@ export class background extends Component<IProps, IState> {
         this.state = { image: this.getImageForHour(new Date().getHours()) };
     }
 
-    getImageForHour(hour:number){
+    getImageForHour(hour: number) {
         switch (true) {
             case (hour >= 23 && hour <= 4):
                 return 'late-night';
@@ -37,7 +37,7 @@ export class background extends Component<IProps, IState> {
             case (hour >= 7):
                 return 'late-morning';
             case (hour >= 5):
-                return 'mid-morning'; 
+                return 'mid-morning';
             default:
                 return 'early-morning';
         };

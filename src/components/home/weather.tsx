@@ -1,4 +1,5 @@
 import { Component } from "react";
+
 interface IProps { }
 interface IState {
     loading: Boolean,
@@ -18,7 +19,7 @@ const requestUrl = 'https://api.openweathermap.org/data/2.5/onecall?'
     + `&appid=${REACT_APP_WEATHER_API_KEY}`
     + `&exclude="current,minutely,hourly,alerts`
     + `&units=metric`
-;
+    ;
 
 export default class Weather extends Component<IProps, IState>{
     constructor(props: IProps) {
